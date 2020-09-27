@@ -1,0 +1,493 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    scroll-behavior: smooth;
+}
+
+
+/*about*/
+
+.about {
+    width: 100%;
+    min-height: 100vh;
+}
+
+#main-heading-bg {
+    background-color: #14213D;
+    color: #fcfcfc;
+}
+
+.abt-heading {
+    text-align: center;
+    font-weight: 600px;
+    margin-bottom: 28px;
+    text-shadow: rgb(247, 235, 235) 1.2px 1.2px 2px;
+    transition: 300ms;
+}
+
+.abt-heading:hover {
+    transform: scale(1.01);
+    transition: 300ms;
+    text-shadow: rgb(247, 235, 235) 1.5px 1.5px 2px;
+}
+
+#welcome {
+    padding: 5px;
+    align-content: start;
+    min-height: 200px;
+}
+
+#welcome-heading {
+    text-align: start;
+    font-size: 50px;
+    /* margin-bottom: 20px; */
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#welcome-note {
+    font-size: 55px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: start;
+    min-height: 200px;
+    padding: 30px;
+    line-height: 1.5;
+    transition: 300ms;
+    background-color: #fd9c00;
+}
+
+#welcome-note:hover {
+    transform: scale(0.99);
+    box-shadow: rgba(90, 89, 89, 0.411) 3px 3px 3px;
+    transition: 300ms;
+}
+
+#mission {
+    padding: 5px;
+    align-content: start;
+    min-height: 200px;
+}
+
+#mission-heading {
+    text-align: start;
+    font-size: 50px;
+    /* margin-bottom: 20px; */
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#mission-note {
+    font-size: 55px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: start;
+    min-height: 200px;
+    padding: 30px;
+    line-height: 1.5;
+    margin-top: -5px;
+    transition: 300ms;
+    background-color: #ff9d00;
+}
+
+#mission-note:hover {
+    transform: scale(0.99);
+    box-shadow: rgba(90, 89, 89, 0.411) 3px 3px 3px;
+    transition: 300ms;
+}
+
+#vision {
+    padding: 5px;
+    align-content: start;
+    min-height: 200px;
+}
+
+#vision-heading {
+    text-align: start;
+    font-size: 50px;
+    /* margin-bottom: 20px; */
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#vision-note {
+    font-size: 55px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: start;
+    min-height: 200px;
+    padding: 30px;
+    line-height: 1.5;
+    margin-top: -5px;
+    transition: 300ms;
+    background-color: #ff9d00;
+}
+
+#vision-note:hover {
+    transform: scale(0.99);
+    box-shadow: rgba(90, 89, 89, 0.411) 3px 3px 3px;
+    transition: 300ms;
+}
+
+
+/*about-end*/
+
+
+/*courses*/
+
+.courses {
+    width: 100%;
+    min-height: 100vh;
+    /* background-color: rgba(230, 230, 250, 0.644); */
+}
+
+
+/* .courses {
+    background-color: rgba(253, 251, 227, 0.863);
+} */
+
+.courses-heading {
+    text-align: center;
+    font-weight: 600px;
+    margin-bottom: 30px;
+    text-shadow: rgb(247, 235, 235) 1.2px 1.2px 2px;
+    transition: 300ms;
+}
+
+.courses-heading:hover {
+    transform: scale(1.01);
+    transition: 300ms;
+    /* text-shadow: rgb(247, 235, 235) 1.5px 1.5px 2px; */
+}
+
+#courses-cards-body {
+    padding: 90px 0px 50px 40px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+#cards {
+    padding: 15px 10px 10px 45px;
+}
+
+#courses-card {
+    transition: 200ms;
+}
+
+#courses-card:hover {
+    box-shadow: #cfcfd3bd 1.5px 1.5px 1.5px;
+    transform: scale(0.99);
+}
+
+#card-text {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.card-btn {
+    margin-left: 54px;
+    padding: 8px 28px 8px 28px;
+    border-radius: 12px;
+    transition: 200ms;
+}
+
+.card-btn:hover {
+    transform: scale(1.05);
+    transition: 200ms;
+}
+
+@media (max-width: 768px) {
+    #abt-notes {
+        box-sizing: border-box;
+    }
+    #welcome {
+        font-size: 40px;
+    }
+    #welcome-heading {
+        text-align: center;
+    }
+    #mission {
+        font-size: 40px;
+    }
+    #mission-heading {
+        text-align: center;
+    }
+    #vision {
+        font-size: 40px;
+    }
+    #vision-heading {
+        text-align: center;
+    }
+    #cards {
+        padding: 20px 10px 10px 100px;
+    }
+}
+
+@media (max-width: 480px) {
+    #abt-notes {
+        box-sizing: border-box;
+    }
+    #welcome {
+        font-size: 35px;
+        margin: 0 3px 0 7px;
+    }
+    #welcome-heading {
+        text-align: center;
+    }
+    #mission {
+        font-size: 35px;
+        margin: 0 3px 0 7px;
+    }
+    #mission-heading {
+        text-align: center;
+    }
+    #vision {
+        font-size: 35px;
+        margin: 0 3px 0 7px;
+    }
+    #vision-heading {
+        text-align: center;
+    }
+    #cards {
+        padding: 20px 10px 10px 30px;
+    }
+    #courses-cards-body {
+        padding: 40px 0px 50px 35px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 970px) {
+    #welcome {
+        font-size: 50px;
+    }
+    #mission {
+        font-size: 50px;
+    }
+    #vision {
+        font-size: 50px;
+    }
+    #cards {
+        padding: 15px 10px 10px 41px;
+    }
+    .fc-card {
+        margin: 0 0 0 150px;
+    }
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+/*courses-end*/
+
+
+/*testimonials*/
+
+.test {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #14213D;
+    align-items: center;
+    padding: 100px 70px;
+}
+
+.card-a {
+    display: flex;
+    color: black;
+    flex-direction: column;
+    justify-content: center;
+    background-color: lavender;
+    line-height: 30px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.card-b {
+    display: flex;
+    color: black;
+    flex-direction: column;
+    justify-content: center;
+    background-color: whitesmoke;
+    line-height: 30px;
+    font-weight: 500;
+    padding: 25px 10px;
+}
+
+.card-c {
+    display: flex;
+    color: black;
+    flex-direction: column;
+    justify-content: center;
+    background-color: whitesmoke;
+    line-height: 30px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.card-d {
+    display: flex;
+    color: black;
+    flex-direction: column;
+    justify-content: center;
+    background-color: lavender;
+    line-height: 30px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+#main-heading-bg {
+    height: 25vh;
+    background-color: lightcyan;
+    color: black;
+}
+
+.testimonials {
+    width: 100%;
+    min-height: 80vh;
+}
+
+.tst-heading {
+    text-align: center;
+    font-weight: 600px;
+    padding: 40px;
+    text-shadow: rgb(247, 235, 235) 1.2px 1.2px 2px;
+    transition: 300ms;
+}
+
+.tst-heading:hover {
+    transform: scale(1.01);
+    transition: 300ms;
+    text-shadow: rgb(247, 235, 235) 1.5px 1.5px 2px;
+}
+
+
+/*testimonial-ends*/
+
+
+/*contact*/
+
+#contact-main-heading-bg {
+    background-color: #161a1d;
+    color: #ffffff;
+    padding: 50px;
+}
+
+.contact {
+    width: 100%;
+    min-width: 100vh;
+}
+
+.contact-heading {
+    text-align: center;
+    font-weight: 600px;
+    /* margin-bottom: 28px; */
+    text-shadow: rgb(247, 235, 235) 1.2px 1.2px 2px;
+    font-family: 'Ubuntu', sans-serif;
+    transition: 300ms;
+}
+
+.contact-heading:hover {
+    transform: scale(1.01);
+    transition: 300ms;
+    text-shadow: rgb(247, 235, 235) 1.5px 1.5px 2px;
+}
+
+.ContactBody {
+    width: 100%;
+    background-color: #E6E6FA;
+    padding: 30px 60px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.btn {
+    color: black;
+}
+
+#map {
+    padding: 5px;
+    border: #ceced4;
+}
+
+#map:hover {
+    box-shadow: #c6c6d3 2px 2px 2px solid;
+}
+
+#contact-form {
+    margin-left: 25px;
+}
+
+#form-body {
+    background-color: transparent;
+}
+
+
+/*contact-ends*/
+
+
+/* footer starts here */
+
+.footer {
+    width: 100%;
+    height: 35vh;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+#ql-list {
+    padding: 17px 0;
+    text-decoration: none;
+}
+
+#ql-heading {
+    text-decoration: none;
+    color: rgba(247, 232, 15, 0.884);
+}
+
+#ql-list {
+    color: rgb(187, 95, 95);
+}
+
+#policy-list {
+    padding: 17px 0;
+    text-decoration: none;
+}
+
+#tac {
+    margin-left: -3px;
+    text-decoration: none;
+}
+
+#enroll-list {
+    padding: 10px 0;
+    text-decoration: none;
+}
+
+#enroll-heading {
+    text-decoration: none;
+}
+
+#log-in {
+    margin-left: 1px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#sign-in {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#social-heading {
+    padding: 20px 0;
+    text-decoration: none;
+}
+
+#social-icons {
+    padding: 2px;
+}
+
+#social-icons-img {
+    width: 35px;
+}
+
+#social-icons-img:hover {
+    transform: scale(1.12);
+}
